@@ -749,8 +749,9 @@ mark,
 }
 
 .navbar-brand img{
-  height: 4vh;
+  height: 5vh;
   width: auto;
+  filter: drop-shadow(5px 5px 3px rgba(0,0,0,0.5))
 }
 
 /* Integrated CSS End */
@@ -1356,6 +1357,18 @@ pre code {
   footer h3 {
     margin-top: 1em;
   }
+
+  .navbar-brand img{
+    height: 3vh;
+  }
+
+  .nav-link{
+    color: black !important;
+  }
+
+  .oi-menu{
+    color: black !important;
+  }
 }
 
 @media only screen and (min-width: 578px) and (max-width: 767px) {
@@ -1483,6 +1496,14 @@ pre code {
 
   footer h3 {
     margin-top: 1em;
+  }
+
+  .nav-link{
+    color: black !important;
+  }
+
+  .oi-menu{
+    color: black !important;
   }
 }
 
@@ -2253,6 +2274,10 @@ pre code {
 
   .community .container .col-lg-6 div {
     height: 50vh;
+  }
+
+  .stemclub .card{
+    height: 95vh;
   }
 
   /* Integrated Css End */
@@ -11239,7 +11264,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: white !important;
     position: relative;
     top: 0;
     padding: 10px 15px;
@@ -11269,7 +11294,7 @@ h5,
   padding-left: 20px;
   padding-right: 20px;
   font-weight: 400;
-  color: #000000;
+  color: black;
   opacity: 1 !important;
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
